@@ -1,0 +1,30 @@
+.nav{
+    /* background-color: #FEF1E1; 1ST*/
+    background-color: rgb(67, 66, 66);
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+.logo h3{
+    margin-left: 20px;
+    /* font-size: ; */
+    /* color: #FC350B;1ST */
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+li a{
+    text-decoration: none;
+    /* color: #FC350B;1ST */
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,92 @@
+::-webkit-scrollbar {
+    display: none;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 20px;
+    
+}
+.container{
+    width: 70vw;
+    height: 80vh;
+    background-color:  rgb(67, 66, 66);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.heading{
+    text-align: center;
+}
+.task{
+    text-align: center;
+    margin-top: 15px;
+    /* border-bottom: 2px solid white; */
+}
+.btn{
+    margin-right: 5px;
+    background-color: #121212;
+    width: 60px;
+    height: 25px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    /* margin-left: 15px; */
+}
+.checkbox{
+    display: flex;
+    /* gap: 7px; */
+    align-items: center;
+    gap: 5px;
+}
+.addtask input{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+.addtask{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.addtask button{
+    width: 100%;
+    height: 30px;
+   /* margin-left: 18px; */
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px;
+}
+.striked{
+    text-decoration: line-through;
+    color: gray;
+    transition: all 0.3s ease;
+}
+.buttons{
+    display: flex;
+}
+.buttons button{
+    margin: 15px;
+}
+.notask{
+    margin: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.finish input{
+    margin: 20px;
+}
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+    }
+}
