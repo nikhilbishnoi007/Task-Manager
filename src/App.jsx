@@ -45,7 +45,7 @@ function App() {
         return item.id!==id
       });
       settodos(newtodos)
-      toast.success("todo delet sucesfully")
+      toast.success("task  deleted  succesfully")
     }
     else{
       alert("delete cancel")
